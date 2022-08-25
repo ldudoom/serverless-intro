@@ -44,6 +44,6 @@ Ahora vamos a agregar las credenciales de AWS, que generamos en un paso anterior
 $ serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 ```
 
-> Reemplaza los datos de --key y de --secret por las credenciales que generaste en la consola de AWS
+> Reemplaza los datos de "**--key**" y de "**--secret**" por las credenciales que generaste en la consola de AWS
 
 > En caso de que necesites utilizar mas de un perfil en el CLI de AWS puedes revisar esta documentacion [Named profiles for the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html")
