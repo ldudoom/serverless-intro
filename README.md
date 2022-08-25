@@ -6,8 +6,8 @@ Este repositorio contiene codigo referente a mi primer proyecto usando el framew
 
 Antes de seguir, vamos a generar las credenciales en AWS, para lo cual, vamos a:
 
-1. Iniciar sesion en la (Consola de AWS)[https://console.aws.amazon.com/console/home?region=us-west-2 "https://console.aws.amazon.com/console/home?region=us-west-2"].
-2. A continuacion vamos a ingresar a la seccion de "**(Credenciales de Seguridad)[https://us-east-1.console.aws.amazon.com/iam/home?region=us-west-2#/security_credentials "https://us-east-1.console.aws.amazon.com/iam/home?region=us-west-2#/security_credentials"]**".
+1. Iniciar sesion en la [Consola de AWS](https://console.aws.amazon.com/console/home?region=us-west-2 "https://console.aws.amazon.com/console/home?region=us-west-2").
+2. A continuacion vamos a ingresar a la seccion de "**[Credenciales de Seguridad](https://us-east-1.console.aws.amazon.com/iam/home?region=us-west-2#/security_credentials "https://us-east-1.console.aws.amazon.com/iam/home?region=us-west-2#/security_credentials")**".
 3. Seleccionamos el apartado de **Claves de Acceso (*Access Keys*)**.
 4. Y damos click en el boton de "**Crear una clave de acceso**".
 5. AWS nos entregara una clave de acceso que esta compuesta de un ID y de una clave que tendran una estructura como esta:
@@ -46,4 +46,4 @@ $ serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secr
 
 > Reemplaza los datos de --key y de --secret por las credenciales que generaste en la consola de AWS
 
-> En caso de que necesites utilizar mas de un perfil en el CLI de AWS puedes revisar esta documentacion (Named profiles for the AWS CLI)[https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html"]
+> En caso de que necesites utilizar mas de un perfil en el CLI de AWS puedes revisar esta documentacion [Named profiles for the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html")
