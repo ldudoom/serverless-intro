@@ -11,8 +11,8 @@ Antes de seguir, vamos a generar las credenciales en AWS, para lo cual, vamos a:
 3. Seleccionamos el apartado de **Claves de Acceso (*Access Keys*)**.
 4. Y damos click en el boton de "**Crear una clave de acceso**".
 5. AWS nos entregara una clave de acceso que esta compuesta de un ID y de una clave que tendran una estructura como esta:
-    - *ID de clave de acceso:* AKNYQRTNXOMSL3MNT7PF
-	- *Clave de acceso secreta:* KARTHY0Sp+0GQjmCA0987Pj8j7kvXvxUosCTxAtjS
+    - **ID de clave de acceso:** *AKNYQRTNXOMSL3MNT7PF*
+	- **Clave de acceso secreta:** *KARTHY0Sp+0GQjmCA0987Pj8j7kvXvxUosCTxAtjS*
 6. Nos dará la opcion de descargar esta clave en un archivo CSV, podemos descargarlo o simplemente copiar y pegar estas credenciales en un lugar seguro.
 
 ## INSTALACION
