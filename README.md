@@ -1,16 +1,16 @@
 # INTRODUCCION A SERVERLESS
 
-Este repositorio contiene codigo referente a mi primer proyecto usando el framework serverless y el cual sera desplegado en AWS Lambdas.
+Este repositorio contiene codigo referente a mi primer proyecto usando el framework serverless y el cual sera desplegado en <abbr title="Amazon Web Services">AWS</abbr> Lambda.
 
-#### Credenciales de AWS
+#### Credenciales de <abbr title="Amazon Web Services">AWS</abbr>
 
-Antes de seguir, vamos a generar las credenciales en AWS, para lo cual, vamos a:
+Antes de seguir, vamos a generar las credenciales en <abbr title="Amazon Web Services">AWS</abbr>, para lo cual, vamos a:
 
-1. Iniciar sesion en la [Consola de AWS](https://console.aws.amazon.com/console/home?region=us-west-2 "https://console.aws.amazon.com/console/home?region=us-west-2").
+1. Iniciar sesion en la [Consola de <abbr title="Amazon Web Services">AWS</abbr>](https://console.aws.amazon.com/console/home?region=us-west-2 "https://console.aws.amazon.com/console/home?region=us-west-2").
 2. A continuacion vamos a ingresar a la seccion de "**[Credenciales de Seguridad](https://us-east-1.console.aws.amazon.com/iam/home?region=us-west-2#/security_credentials "https://us-east-1.console.aws.amazon.com/iam/home?region=us-west-2#/security_credentials")**".
 3. Seleccionamos el apartado de **Claves de Acceso (*Access Keys*)**.
 4. Y damos click en el boton de "**Crear una clave de acceso**".
-5. AWS nos entregara una clave de acceso que esta compuesta de un ID y de una clave que tendran una estructura como esta:
+5. <abbr title="Amazon Web Services">AWS</abbr> nos entregara una clave de acceso que esta compuesta de un ID y de una clave que tendran una estructura como esta:
     - **ID de clave de acceso:** *AKNYQRTNXOMSL3MNT7PF*
 	- **Clave de acceso secreta:** *KARTHY0Sp+0GQjmCA0987Pj8j7kvXvxUosCTxAtjS*
 6. Nos dará la opcion de descargar esta clave en un archivo CSV, podemos descargarlo o simplemente copiar y pegar estas credenciales en un lugar seguro.
@@ -38,12 +38,12 @@ $ serverless --help
 $ sls --help
 ```
 
-Ahora vamos a agregar las credenciales de AWS, que generamos en un paso anterior, a nuestro computador usando el <abbr title="Command Line Interface">CLI</abbr> de <abbr title="Serverless Framework">Serverless</abbr> de la siguiente manera:
+Ahora vamos a agregar las credenciales de <abbr title="Amazon Web Services">AWS</abbr>, que generamos en un paso anterior, a nuestro computador usando el <abbr title="Command Line Interface">CLI</abbr> de <abbr title="Serverless Framework">Serverless</abbr> de la siguiente manera:
 
 ```bash
 $ serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 ```
 
-> Reemplaza los datos de "**--key**" y de "**--secret**" por las credenciales que generaste en la consola de AWS
+> Reemplaza los datos de "**--key**" y de "**--secret**" por las credenciales que generaste en la consola de <abbr title="Amazon Web Services">AWS</abbr>
 
-> En caso de que necesites utilizar mas de un perfil en el CLI de AWS puedes revisar esta documentacion [Named profiles for the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html")
+> En caso de que necesites utilizar mas de un perfil en el <abbr title="Command Line Interface">CLI</abbr> de <abbr title="Amazon Web Services">AWS</abbr> puedes revisar esta documentacion [Named profiles for the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html")
