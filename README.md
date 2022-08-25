@@ -34,7 +34,7 @@ Ahora ya podemos utilizar los comandos de serverless, de la siguiente manera por
 ```bash
 $ serverless --help
 
-# o utilizando la manera abrebiada
+# o utilizando la manera abreviada
 $ sls --help
 ```
 
