@@ -88,7 +88,10 @@ $ sls deploy
 ```
 
 > **NOTA:** En caso de tener mas de un perfil de <abbr title="Amazon Web Services">AWS</abbr> configurado, podemos hacer el despliegue utilizando el comando deploy de la siguiente manera:
+    
+    ```bash
     $ sls deploy --aws-profile devProfile
+    ```
 
 
 Obtendremos un mensaje parecido al siguiente:
@@ -120,8 +123,14 @@ Este comando consta de:
 - **-s dev:** Por último, este parámetro nos indica que vamos a ejecutar la funcion en el stage dev que es el stage en el que se desplegó nuestra función.
 
 > **NOTA:** En caso de tener mas de un perfil de <abbr title="Amazon Web Services">AWS</abbr> configurado, podemos hacer la prueba de la funcion utilizando el comando invoke de la siguiente manera:
+    
+    ```bash
     $ sls invoke -f hello -s dev --aws-profile devProfile
+    ```
 
 
 > **NOTA:** Para probar la funcion en nuestro entorno local, vamos a ejecutar el comando de la siguiente manera:
+    
+    ```bash
     $ sls invoke local -f hello -s dev
+    ```
